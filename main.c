@@ -43,7 +43,7 @@ int main(int argc, char **argv){
     flags = 7;
     fp = fopen(argv[1], "r");
   }else{
-    fprintf(stderr, "The file name is missing"
+    fprintf(stderr, "The file name is missing");
   }
   
   if(fp == NULL){
